@@ -17,7 +17,7 @@ public class JPAPersist {
         EntityManager em = emf.createEntityManager();
 
         // crear el país
-        Country country = new Country("City", "Bri", "South America", "Este", 525856.0, 1850, 32150000, 80.00, 700.0, 402513.0, "gadnis", "Republica Federal", "Vizcarra", 5, "GD", null, null);
+        Country country = new Country("City", "Bri", "South America", "Asia", 525856.0, 1850, 32150000, 80.00, 700.0, 402513.0, "gadnis", "Republica Federal", "Vizcarra", 5, "GD", null, null);
 
         // crear las ciudades
         City ciudad1 = new City("Lima", "Los Olivos", 500000, country);
